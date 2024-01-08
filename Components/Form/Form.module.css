@@ -1,0 +1,104 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--box-colour);
+    padding: 30px 120px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+    
+}
+
+.formContainer h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formContainer button img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.formContainer button {
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 30px;
+    border: 1px solid;
+    font-weight: 300;
+    border: 0;
+}
+
+
+.formContainer span {
+    height: 1px;
+    background: black;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.formContainer input {
+    width: 100%;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.formContainer form button {
+    border: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: var(--button-colour-next);
+}
+
+.formContainer form button:hover {
+    background-color: var(--hover-colour);
+}
+
+.formContainer p {
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+
+.googleAccount {
+    width: 100%;
+    display: inline-block;
+}
+
+.appleAccount {
+    width: 100%;
+    display: inline-block;
+}
+
+
+.googleAccountInput:focus {
+    outline: none;
+}
+
+.appleAccountInput:focus {
+    outline: none;
+}
+
+
+.fieldset > legend {
+    font-size: var(--regular-font);
+    margin-bottom: 30px;
+}
+

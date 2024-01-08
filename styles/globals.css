@@ -1,0 +1,12 @@
+:root {
+  --background-colour: #262a2f;
+  --box-colour: white;
+  --button-colour-next: black;
+  --regular-font: 20px;
+  --hover-colour: grey;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--background-colour);
+}
